@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "5574e8ab-8c7b-36a6-bfff-08911b2e8d58",
+    "name": "Lash",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a9c8ac5e-4f7c-3a27-ac90-0766d2ebcacc",
+    "name": "aqua",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f8f8d6f8-9fc5-30f4-a5c5-0e1804c02fd9",
+    "name": "blaster0987\\",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ea915568-7d35-3bbf-858d-03e23426941d",
+    "name": "Aqua",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
