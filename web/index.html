@@ -20,9 +20,12 @@ DO NOT REPLACE THIS FILE WITH EAGLERCRAFT, THAT IS AGAINST REPLIT'S AND MOJANG'S
     <h1>JOIN THIS SERVER AT: <code id="ip"></code></h1>
     <hr/>
     <script type="text/javascript">
-      document.getElementById("ip").innerText = "ws" + window.location.origin.slice(4);
+      const ip = "ws" + window.location.origin.slice(4);
+      document.getElementById("ip").innerText = ip;
+      console.log("Server IP: " + ip); // Add this line to log the server IP into the console
+      console.log("WHYNO")
       const converter = new showdown.Converter();
-      fetch("README.md").then(d => d.text()).then(t => document.body.innerHTML += converter.makeHtml(t));
+      fetch("README.md").then(d => d.text()).then(t => document.body.innerHTML += converter.makeHtml(t)).then(console.log("Server IP: " + ip));
     </script>
   </body>
 </html>
