@@ -42,6 +42,12 @@ sed -i "s/^  redirect_legacy_clients_to: .*\$/  redirect_legacy_clients_to: 'wss
 
 caddy start --config ./Caddyfile > /dev/null 2>&1
 
+# Extracting IP from Caddyfile
+server_ip=$(awk '/^  redirect_legacy_clients_to:/ {print $2}' bungee/plugins/EaglercraftXBungee/listeners.yml | cut -d'/' -f3 | cut -d':' -f1)
+
+# Printing the extracted server IP
+echo "Server IP: $server_ip"
+
 cd server
 tmux new -d -s server "java -Djline.terminal=jline.UnsupportedTerminal -Xmx2048M -jar server.jar nogui; tmux kill-session -t server"
 cd ..
