@@ -1,5 +1,5 @@
 listener_01:
-  address: ec2-18-188-197-95.us-east-2.compute.amazonaws.com:25565
+  address: 127.0.0.1:25565
   address_v6: 'null'
   max_players: -1
   tab_list: GLOBAL_PING
