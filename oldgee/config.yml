@@ -4,7 +4,7 @@ token_verify: ''
 groups: {}
 servers:
   server:
-    address: localhost:25565
+    address: 3.17.96.120:25565
     restricted: false
 voice_turn_servers:
   openrelay3:
