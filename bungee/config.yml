@@ -10,7 +10,7 @@ listeners:
   priorities:
   - server
   bind_local_address: false
-  host: 18.188.197.95:25565
+  host: ec2-18-188-197-95.us-east-2.compute.amazonaws.com:25565
   max_players: -1
   tab_size: 60
   force_default_server: true
