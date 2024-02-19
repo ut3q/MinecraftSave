@@ -44,5 +44,5 @@ disabled_commands: []
 servers:
   server:
     motd: among us
-    address: 3.17.96.120:25565
+    address: localhost:25565
     restricted: false
