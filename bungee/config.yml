@@ -1,6 +1,6 @@
 enforce_secure_profile: false
 listeners:
-- query_port: 25565
+- query_port: 25577
   motd: Heyo!
   tab_list: GLOBAL_PING
   query_enabled: false
